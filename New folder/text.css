@@ -1,0 +1,58 @@
+
+@font-face {
+     font-family:'gamjaGamjaFlower-Regular';
+    src: url('GamjaFlower-Regular.tff');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+
+body {
+    font-family : Arial, serif
+    color = blue;
+    font-size: 24px; 
+
+}
+
+#first {
+    color : red;
+    font-family: GamjaFlower-Regular;
+    font-size : 12px;
+    text-decoration: underline;
+}
+
+
+#second {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    text-decoration: line-through;
+    text-indent: 110px;
+}
+
+#third {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: overline;
+}
+h1 {
+    text-transform: capitalize;
+    text-indent: 25px;
+    text-shadow: 66px -34px 6px rgba(150, 41, 237, 0.92);
+
+}
+
+h2 {
+    text-transform: lowercase;
+    
+}
+
+#indent {
+    text-align: center;
+}
+
+#vertical {
+    vertical-align: super;
+}
+
+a:link {
+ color: red;
+}
