@@ -1,0 +1,49 @@
+div {
+    background-color:  yellow;
+    border-width: 5px;
+
+}
+
+.first {
+    background-color: yellow;
+    height : 200px;
+    width: 300px;
+    border: 5px dashed red;
+    padding: 0;
+    margin-right: 20px;
+    display: inline;
+}
+
+.second {
+    background-color: red;
+    width : 400px;
+    height: 200px;
+    border: 5px solid green;
+    padding: 0;
+    margin-right: 20px;
+    display: inline;
+    display: none;
+    
+}
+
+.third {
+    width : 200px;
+    height: 200px;
+    border: 5px dashed red;
+    padding: 0;
+    margin-right: 20px;
+    display: inline;
+    visibility: hidden;
+
+
+}
+.main {
+    background-color: blue;
+    color: white;
+    width: 960px;
+    padding: 50px 0 50px 0;
+    margin: 50px 0 50px 0;
+    text-align: center;
+    box-shadow: 0 0 9px red; 
+    border-radius: 12px 13px 16px 17px;
+}

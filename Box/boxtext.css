@@ -1,0 +1,33 @@
+div {
+    background-color:  yellow;
+    border-width: 5px;
+
+}
+
+.first {
+    background-color: yellow;
+    height : 200px;
+    width: 300px;
+    border: 5px dashed red;
+    padding: 50px;
+    margin: 50px;
+}
+
+.second {
+    background-color: red;
+    width : 400px;
+    height: 200px;
+    border: 5px solid green;
+    padding-top: 50px;
+    margin: 0 auto;
+    
+}
+
+.third {
+    width : 200px;
+    height: 200px;
+    border: 5px dashed red;
+    padding: 50px;
+    margin-left: 100px;
+
+}
