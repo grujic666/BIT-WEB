@@ -1,0 +1,28 @@
+#first{
+
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+#second {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+#third {
+    list-style: upper-alpha;
+}
+
+#fourth {
+    list-style: upper-roman;
+}
+
+.clr {
+    color: lime;
+}
+
+.img {
+    width: 200px;
+    list-style-image: url(http://images.yuku.com/image/gif/47e154746b866fcf1d7fe6794e7816df5d0819d.gif);
+    list-style-position: inside;
+}

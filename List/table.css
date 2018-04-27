@@ -1,0 +1,26 @@
+
+
+th {
+    background-color: red;
+    color: white;
+}
+
+td {
+    padding: 10px 0;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+
+.size {
+    height: 100px;
+}
+
+tr:nth-of-type(odd){
+    background-color: grey;
+}
+tr:hover {
+    background-color: yellow;
+}
