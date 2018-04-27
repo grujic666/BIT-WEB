@@ -1,9 +1,29 @@
-div {
-    width: 200px;
-    height: 500px;
+#form-wrapper {
+    width: 300px;
+    height: 300px;
     margin: auto;
+    background-color: grey;
+    padding: 50px;
    }
 
-   #sub {
-       background-color: red;
+   div{
+       margin-top: 20px;
+       margin-bottom: 20px;
+       
+   }
+   input {
+       display: block;
+       width: 300px;
+   }
+   label {
+         display: block;
+         width: 300px;
+   }
+
+   #first {
+       color: darkred;
+   }
+
+   #second {
+       color: darkgoldenrod;
    }

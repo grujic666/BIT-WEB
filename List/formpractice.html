@@ -7,29 +7,28 @@
 
 <body>
 
-    <div>
-        <form action="http" //www.example.com/login.php method="POST">
+    <div id='form-wrapper'>
+        <form action="http://www.example.com/login.php" method="POST">
 
-            <h1>FormGet</h1>
-            </br>Full name:
-            </br>
-            <input type="text" name="full name">
-            </br>
-            </br>Email:
-            </br>
-            <input type="text" name="email">
-            </br>
-            </br>Contact number:
-            </br>
-            <input type="text" name="contact number">
-            </br>
-            </br>Address:
-            </br>
-            <input type="text" name="phone number">
-            </br>
-            </br>
-            <input type="submit" value="Submit" id='sub'>
+            <h1>
+                <span id='first'>Form</span>
+                <span id='second'>Get</span>
+            </h1>
+            <hr>
+            <div>
+                <label for="name">Full name</label>
+                <input type="text" name="full name" id='name' placeholder="Full name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email address" id='email' placeholder="Email">
+            </div>
+            <label for="number">Contact number</label>
+            <input type="text" name="number" id='number' placeholder="Contact number">
+            <label for="address">Address</label>
+            <input type="text" name="address" id='address' placeholder="Address">
 
+            <input type='submit' value='Submit'>
 
 
         </form>
