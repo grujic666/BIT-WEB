@@ -1,0 +1,25 @@
+div {
+    width: 960px;
+    background-color: red;
+    overflow: hidden;
+    float: right;
+   
+    
+}
+li {
+    display: inline;
+    
+    
+    
+}
+ul {
+    float: right;
+    
+}
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+

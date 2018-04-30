@@ -1,0 +1,26 @@
+#relative{
+    position: relative;
+    top: 50px;
+    left: 100px;
+   margin: 10px;
+}
+
+#absolute{
+
+    position: absolute;
+    right: 10px;
+    top: 15px;
+
+}
+
+#bottom {
+    position: absolute;
+    top: 700px;
+    left: 400px;
+}
+
+#back{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
