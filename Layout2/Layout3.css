@@ -1,0 +1,63 @@
+.main {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+#headline {
+    width: 960px;
+    background-color: red;
+    overflow: hidden;
+    margin: 10px auto;
+}    
+#first {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+   
+li {
+    display: inline;
+    padding-right: 5px;
+      
+    
+}
+ul {
+    float: right;
+    
+}
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+#second {
+    background-color: white;
+    margin-right: 25px;
+    width: 300px;
+    float: left;
+}
+
+#third {
+    background-color: white;
+    margin: 0 auto;
+    width: 300px;
+    float: left;
+}
+#forth {
+    background-color: white;    
+    width: 300px;
+    clear: left;
+
+
+}
+
+#fifth {
+    background-color: white;    
+    width: 300px;
+    
+}
+
+
+
+

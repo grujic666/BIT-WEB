@@ -1,0 +1,45 @@
+.all {
+    width: 200px;
+    height: 200px;
+}
+.last {
+    position: relative;
+    right: 100px;
+    bottom: 100px;
+}
+#first {
+    background-color: red;
+}
+
+#second {
+    background-color: yellow;
+}
+
+#third {
+    background-color: black;
+}
+
+div:nth-of-type(5) {
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    
+
+}
+div:nth-of-type(6) {
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+    
+
+}
+
+div:nth-of-type(7) {
+    position: absolute;
+    right: 200px;
+    bottom: 200px;
+
+}
+
+
+

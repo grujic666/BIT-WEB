@@ -1,0 +1,22 @@
+
+
+#first {
+    height: 200px;
+    float: right;
+    
+
+}
+
+#second {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+}
+
+#third {
+    width: 200px;
+    height: 200px;
+    float: left;
+    clear: left;
+}
