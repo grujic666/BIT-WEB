@@ -1,0 +1,49 @@
+#head {
+    border: 1px solid lightgrey;
+    width: 400px;
+}
+
+header{
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    
+
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+article{
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.first {
+    width: 50%;
+    height: 50%;
+    
+}
+button{
+    width: 100%;
+}
+ button {
+     background-color: lightgrey;
+
+ }
+ button:hover{
+     background-color: blue;
+ }
+
+ nav {
+     width: 100%;
+ }
+ #brd1 {
+     margin: 1px;
+
+ }
