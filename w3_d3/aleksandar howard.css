@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+}
+
+h1{
+    font-size: 60px;
+    display: inline-block;
+    
+   
+}
+body{
+    width: 960px;
+    margin: 0 auto;
+}
+
+main {
+    width: 100%;
+}
+
+.left {
+    width: 49%;
+    display: inline-block;
+    margin:  0 auto;
+    float: left;
+}
+
+.right {
+    width: 49%;
+    display: inline-block;
+    margin:  0 auto;
+    border-left: 1%;
+    border-color: black;
+}
+header{
+    display: inline;
+}
+img {
+    border-radius: 100%;
+    float: left;
+}
+div {
+    float: left;
+}
