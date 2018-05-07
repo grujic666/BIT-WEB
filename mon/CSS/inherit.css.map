@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,gCAAO;EACH,MAAM,EAAE,cAAc;;AAG1B,MAAO;EAEJ,YAAY,EAAE,KAAK;;AAEtB,OAAQ;EAEL,YAAY,EAAC,MAAM;;AAEtB,MAAO;EAEF,YAAY,EAAE,KAAK",
+"sources": ["../sass/inherit.scss"],
+"names": [],
+"file": "inherit.css"
+}

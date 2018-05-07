@@ -1,0 +1,19 @@
+// p {
+//     background: aquamarine;
+// }
+.border{
+    border: 2px solid blue;
+
+}
+.first {
+   @extend .border;
+   border-color: black;
+}
+.second {
+    @extend .border;
+   border-color:yellow;
+}
+.third {
+    @extend .border;
+     border-color: green;
+}

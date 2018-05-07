@@ -1,0 +1,13 @@
+.border, .first, .second, .third {
+  border: 2px solid blue; }
+
+.first {
+  border-color: black; }
+
+.second {
+  border-color: yellow; }
+
+.third {
+  border-color: green; }
+
+/*# sourceMappingURL=inherit.css.map */
