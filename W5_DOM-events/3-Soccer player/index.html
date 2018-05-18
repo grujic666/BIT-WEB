@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <img id="player" src="player.png" alt="player">
+
+    <div id="stop">
+        <button id="button">Stop Moving</button>
+
+    </div>
+
+    <script>
+        document.body.addEventListener("click", myFunction);
+        function myFunction(e) {
+            var p = document.querySelector('#player');
+            var x = e.clientX;
+            var y = e.clientY;
+            p.style.left = x - 50 + "px";
+            p.style.top = y - 50 + "px";
+            // var coor = "Coordinates: (" + x + ", " + y + ")";
+            // document.querySelector("#demo").innerHTML = coor;
+        }
+
+        document.querySelector("#button").addEventListener("click", removeHandler);
+        function removeHandler() {
+            document.body.removeEventListener("click", myFunction);
+        }
+
+    </script>
+
+</body>
+
+</html>
